@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional styles */
+body {
+  font-family: 'Inter', sans-serif;
+}
+.purple-bg {
+  background: linear-gradient(90deg, #6B46C1, #4C2E8F);
+}
+.blue-bg {
+  background: linear-gradient(90deg, #1E3A8A, #2D3748);
+}
+.dark .blue-bg {
+  background: linear-gradient(90deg, #2D3748, #1A202C);
+}
+.hover\:purple-bg:hover {
+  background: linear-gradient(90deg, #4C2E8F, #6B46C1);
+}
+.hover\:blue-bg:hover {
+  background: linear-gradient(90deg, #2D3748, #1E3A8A);
+}
+.dark .hover\:blue-bg:hover {
+  background: linear-gradient(90deg, #1A202C, #2D3748);
+}
+.hero-bg {
+  background: linear-gradient(135deg, #FFFFFF, #E9D5FF);
+}
+.dark .hero-bg {
+  background: linear-gradient(135deg, #2D3748, #6B46C1);
+}
+.section-transition {
+  background: linear-gradient(to bottom, #FFFFFF, #DBEAFE);
+}
+.dark .section-transition {
+  background: linear-gradient(to bottom, #1A202C, #2D3748);
+}
+.card-border {
+  border-color: #DBEAFE;
+}
+.dark .card-border {
+  border-color: #4C2E8F;
+}
